@@ -12,7 +12,7 @@ npm v9.5.1
 yarn install
 ```
 
-### start hot-reloads for development
+### start hot-reloads
 
 ```sh
 yarn run serve --mode production
