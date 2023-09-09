@@ -6,6 +6,8 @@ yarn v1.22.19
 
 npm v9.5.1
 
+note: env file begin 'VUE_APP_*'
+
 ## Project setup
 
 ```sh
