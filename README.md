@@ -43,12 +43,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### copy env
 
+```sh
 copy env.production.txt .env.production
 copy env.development.txt .env.development
 copy env.uat.txt .env.uat
 copy env.test.txt .env.test
-
-
-
-
-
+```
