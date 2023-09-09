@@ -1,10 +1,10 @@
-# hello-world
+# test-vue
 
 node v18.16.1
 
-yarn 1.22.19
+yarn v1.22.19
 
-npm 9.5.1
+npm v9.5.1
 
 ## Project setup
 
@@ -26,7 +26,7 @@ yarn run serve --mode test
 ```sh
 yarn run build --mode production
 yarn run build --mode development
-yarn run build --mode development
+yarn run build --mode uat
 yarn run build --mode test
 ```
 
@@ -41,9 +41,12 @@ yarn lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-###
+### copy env
 
+copy env.production.txt .env.production
 copy env.development.txt .env.development
+copy env.uat.txt .env.uat
+copy env.test.txt .env.test
 
 
 
