@@ -8,7 +8,34 @@ npm v9.5.1
 
 note: env file begin 'VUE_APP_*'
 
-## Project setup
+# add env
+
+## create env file ".env.development"
+
+```
+PORT=8001
+VUE_APP_SNAME="Wachira Duangdee development"
+```
+
+## add variable to code
+
+https://github.com/wachira90/test-vue/blob/main/src/App.vue#L26-L31
+
+```vue
+ data() {
+   return {
+      VUE_APP_SNAME : process.env.VUE_APP_SNAME
+    }
+  }
+```
+
+## show value
+
+```
+{{VUE_APP_SNAME}}
+```
+
+## Finish project
 
 ```sh
 git clone https://github.com/wachira90/test-vue.git
