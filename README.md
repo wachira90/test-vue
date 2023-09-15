@@ -31,6 +31,8 @@ https://github.com/wachira90/test-vue/blob/main/src/App.vue#L26-L31
 
 ## show value
 
+https://github.com/wachira90/test-vue/blob/main/src/App.vue#L3C1-L3C1
+
 ```
 {{VUE_APP_SNAME}}
 ```
