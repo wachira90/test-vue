@@ -6,6 +6,8 @@ yarn v1.22.19
 
 npm v9.5.1
 
+yarn global add @vue/cli
+
 note: env file begin 'VUE_APP_*'
 
 # add env
