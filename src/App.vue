@@ -15,7 +15,7 @@ console.log(xx)
 const xxx = process.env.SNAME
 console.log(xxx)
 
-const aa = process.env
+const aa = process.env.VUE_APP_API_KEY
 console.log(aa)
 
 export default {
@@ -26,6 +26,8 @@ export default {
   data() {
     return {
       VUE_APP_SNAME: process.env.VUE_APP_SNAME,
+      VUE_APP_API_KEY: process.env.VUE_APP_API_KEY,
+      VUE_APP_DATABASE_URL : process.env.VUE_APP_DATABASE_URL
     }
   },
 }

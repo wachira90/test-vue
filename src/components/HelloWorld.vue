@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }} | {{ VUE_APP_SNAME }} ||</h1>
+    <h1>{{ msg }} | {{ VUE_APP_SNAME }} | {{ VUE_APP_API_KEY }} {{ VUE_APP_DATABASE_URL }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
       check out the
@@ -85,6 +85,8 @@ export default {
   data() {
     return {
       VUE_APP_SNAME: process.env.VUE_APP_SNAME,
+      VUE_APP_API_KEY: process.env.VUE_APP_API_KEY, 
+      VUE_APP_DATABASE_URL : process.env.VUE_APP_DATABASE_URL
     }
   },
 }
